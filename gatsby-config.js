@@ -15,13 +15,15 @@ module.exports = {
  
   },
   plugins: [
-    {
-      resolve: "gatsby-plugin-google-analytics",
+     {
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: GA_TRACKING_ID,
-      },
-      pluginConfig: {
+        trackingIds: [
+          GA_TRACKING_ID,
+        ],
+        pluginConfig: {
           head: true,
+        },
       },
     },
     "gatsby-plugin-material-ui",
