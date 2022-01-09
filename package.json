@@ -14,7 +14,9 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "lint": "eslint .",
-    "deploy": "gatsby build && cp CNAME public/ && gh-pages -d public"
+    "deploy": "gatsby build && cp CNAME public/ && gh-pages -d public",
+    "neateploy": "gatsby build && && gh-pages -d public"
+
   },
   "dependencies": {
     "@emotion/react": "^11.7.1",
