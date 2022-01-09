@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://hhaluk.me">
-    <img alt="Gatsby" src="https://github.com/Huseyinnurbaki/notes/blob/master/Storage/devprofile_bg.png?raw=true"/>
+    <img alt="Gatsby" src="https://github.com/Huseyinnurbaki/notes/blob/master/Storage/devprofilebg.png?raw=true"/>
   </a>
 </p>
 
