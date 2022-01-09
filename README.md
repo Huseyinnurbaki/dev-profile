@@ -48,9 +48,9 @@ $ npm run deploy
 If you don't want a custom domain and ok with what github is providing this the right option.
 You can delete CNAME for this scenario
 
-  ```shell
-  npm run neatdeploy
-  ```
+```shell
+$ npm run neatdeploy
+```
 
 
 
