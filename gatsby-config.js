@@ -7,11 +7,11 @@ const GA_TRACKING_ID = config.GA_TRACKING_ID;
 
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.hhaluk.me",
-    title: "hhaluk",
-    description: "Huseyin Haluk Nurbaki - Profile",
+    siteUrl: "https://hhaluk.me",
+    title: "Huseyin Haluk Profile Card",
+    description: "Open Source Content:  github.com/Huseyinnurbaki • huseyinnurbaki.medium.com • hub.docker.com/search?q=hhaluk&type=image",
     author: "Huseyinnurbaki",
-    keywords: ["blog","github", "medium", "huseyinnurbaki", "opensource", "hhaluk"]
+    keywords: ["huseyinnurbaki", "opensource", "hhaluk", "hhaluk.me", "in/huseyinnurbaki", "crypto-watchdog", "mocktail", "blog", "github", "medium",]
  
   },
   plugins: [
@@ -28,13 +28,28 @@ module.exports = {
     },
     "gatsby-plugin-material-ui",
     "gatsby-plugin-react-helmet",
-    "gatsby-plugin-sitemap",
+    {
+      resolve: `gatsby-plugin-advanced-sitemap`,
+      options: {
+        createLinkInHead: true, // optional: create a link in the `<head>` of your site
+        addUncaughtPages: true,
+      },
+    },
     {
       resolve: "gatsby-plugin-manifest",
       options: {
         icon: "src/images/favicon.ico",
       },
     },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://hhaluk.me',
+        sitemap: 'https://hhaluk.me/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    }
+
     
   ],
 };
