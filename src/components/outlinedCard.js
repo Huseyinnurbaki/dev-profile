@@ -40,7 +40,7 @@ const card = (
         Toronto, ON
       </Typography>
 
-      <Typography color="text.secondary">
+      <Typography color="text.secondary" textAlign="justify" >
         I am a Software Engineer and amateur mountain biker. I am fond of tech
         blogs/talks and open-source software.
         <br />
