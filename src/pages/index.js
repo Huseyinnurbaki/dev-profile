@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 import Seo from "../components/seo"
 import ParticlesBg from '../components/particles';
 import Grid from '@mui/material/Grid'
-import OutlinedCard from '../components/card'
+import OutlinedCard from '../components/outlinedCard'
 
 
 function IndexPage(){

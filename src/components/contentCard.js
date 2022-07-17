@@ -1,0 +1,41 @@
+import * as React from "react";
+import PropTypes from "prop-types";
+import Card from "@mui/material/Card";
+import CardHeader from "@mui/material/CardHeader";
+import CardMedia from "@mui/material/CardMedia";
+import CardContent from "@mui/material/CardContent";
+import Avatar from "@mui/material/Avatar";
+import Typography from "@mui/material/Typography";
+import { red } from "@mui/material/colors";
+
+export default function ContentCard({ item }) {
+  return (
+    <Card sx={{ maxWidth: 345 }}>
+      <CardHeader
+        avatar={
+          <Avatar sx={{ bgcolor: red[500] }} aria-label="avatar">
+            {item.avatar}
+          </Avatar>
+        }
+        title={item.title}
+        subheader={item.subHeader}
+      />
+      <CardMedia
+        component={item.cardMediaComponent}
+        alt={item.cardMediaAltText || item.title}
+        src={item.cardMediaSrc}
+      />
+      {item.cardContent && (
+        <CardContent>
+          <Typography variant="body2" color="text.secondary">
+            {item.cardContent}
+          </Typography>
+        </CardContent>
+      )}
+    </Card>
+  );
+}
+
+ContentCard.propTypes = {
+  item: PropTypes.object,
+};

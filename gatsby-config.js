@@ -11,8 +11,17 @@ module.exports = {
     title: "Huseyin Haluk Profile Card",
     description: "Open Source Content:  github.com/Huseyinnurbaki • huseyinnurbaki.medium.com • hub.docker.com/search?q=hhaluk&type=image",
     author: "Huseyinnurbaki",
-    keywords: ["huseyinnurbaki", "opensource", "hhaluk", "hhaluk.me", "in/huseyinnurbaki", "crypto-watchdog", "mocktail", "blog", "github", "medium",]
- 
+    keywords: ["huseyinnurbaki", "opensource", "hhaluk", "hhaluk.me", "in/huseyinnurbaki", "crypto-watchdog", "mocktail", "blog", "github", "medium"],
+    menuLinks: [
+          {
+            "name": "home",
+            "link": "/"
+          },
+          {
+            "name": "content",
+            "link": "/content"
+          }
+        ]
   },
   plugins: [
      {

@@ -13,6 +13,7 @@ const Seo = ({ site, description, lang, meta, image, title, pathname  }) => {
       }}
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
+      menuLinks={site.siteMetadata.menuLinks} siteTitle={site.siteMetadata.title}
       link={
         canonical
           ? [
