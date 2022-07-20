@@ -73,7 +73,7 @@ function ContentPage() {
                   onClick={() => onChipClick(item)}
                   label={`#${item}`}
                   clickable
-                  color="secondary"
+                  color="warning"
                 />
               </Grid>
             ))}
