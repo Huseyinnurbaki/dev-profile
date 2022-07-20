@@ -8,7 +8,7 @@ const ContentData = [
     cardMediaAltText: "",
     cardMediaSrc: "https://www.youtube.com/embed/BnIz7H5ruy0",
     cardContent: "",
-    hashtags: ["productivity", "youtube"],
+    hashtags: ["productivity", "google", "youtube"],
   },
   {
     avatar: "📺",
@@ -20,7 +20,7 @@ const ContentData = [
     cardMediaAltText: "",
     cardMediaSrc: "https://www.youtube.com/embed/hcRxFRgNpns",
     cardContent: "",
-    hashtags: ["scaling", "youtube"],
+    hashtags: ["scaling", "structuring", "youtube"],
   },
   {
     avatar: "📺",
@@ -31,7 +31,7 @@ const ContentData = [
     cardMediaAltText: "",
     cardMediaSrc: "https://www.youtube.com/embed/o_TH-Y78tt4",
     cardContent: "",
-    hashtags: ["architecture", "youtube"],
+    hashtags: ["architecture", "youtube", "unclebob"],
   },
   {
     avatar: "📺",
@@ -42,7 +42,7 @@ const ContentData = [
     cardMediaAltText: "",
     cardMediaSrc: "https://www.youtube.com/embed/zHiWqnTWsn4",
     cardContent: "",
-    hashtags: ["solid", "youtube"],
+    hashtags: ["solid", "youtube", "unclebob"],
   },
   {
     avatar: "📋",
@@ -56,11 +56,8 @@ const ContentData = [
     cardContent: "",
     cardContentLink:
       "https://www.scrum.org/resources/blog/leading-high-performing-teams",
-    hashtags: ["solid", "blog"],
+    hashtags: ["performance", "team", "blog"],
   },
 ];
 
-export default ContentData
-
-
-
+export default ContentData;
