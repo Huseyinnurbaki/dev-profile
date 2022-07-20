@@ -67,12 +67,13 @@ function ContentPage() {
               <Grid item xs="auto" key={key}>
                 <Chip
                   variant={
-                    selectedHashtags.includes(item) ? "outlined" : "filled"
+                    selectedHashtags.includes(item) ? "filled" : "outlined"
                   }
                   value={item}
                   onClick={() => onChipClick(item)}
                   label={`#${item}`}
                   clickable
+                  color="secondary"
                 />
               </Grid>
             ))}
