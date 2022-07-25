@@ -8,7 +8,7 @@ const ContentData = [
     cardMediaAltText: "",
     cardMediaSrc: "https://www.youtube.com/embed/BnIz7H5ruy0",
     cardContent: "",
-    hashtags: ["productivity", "google", "youtube"],
+    hashtags: ["productivity", "youtube"],
   },
   {
     avatar: "📺",
@@ -20,7 +20,7 @@ const ContentData = [
     cardMediaAltText: "",
     cardMediaSrc: "https://www.youtube.com/embed/hcRxFRgNpns",
     cardContent: "",
-    hashtags: ["scaling", "structuring", "youtube"],
+    hashtags: ["structuring", "youtube"],
   },
   {
     avatar: "📺",
@@ -31,7 +31,7 @@ const ContentData = [
     cardMediaAltText: "",
     cardMediaSrc: "https://www.youtube.com/embed/o_TH-Y78tt4",
     cardContent: "",
-    hashtags: ["architecture", "youtube", "unclebob"],
+    hashtags: ["youtube", "unclebob"],
   },
   {
     avatar: "📺",
@@ -42,7 +42,18 @@ const ContentData = [
     cardMediaAltText: "",
     cardMediaSrc: "https://www.youtube.com/embed/zHiWqnTWsn4",
     cardContent: "",
-    hashtags: ["solid", "youtube", "unclebob"],
+    hashtags: ["youtube", "unclebob"],
+  },
+  {
+    avatar: "📺",
+    avatarBgColor: "#f44336",
+    title: "Steve Jobs introduces iPhone in 2007",
+    subHeader: "25 July, 2022",
+    cardMediaComponent: "iframe",
+    cardMediaAltText: "",
+    cardMediaSrc: "https://www.youtube.com/embed/MnrJzXM7a6o",
+    cardContent: "",
+    hashtags: ["youtube", "stevejobs"],
   },
   {
     avatar: "📋",
@@ -56,7 +67,7 @@ const ContentData = [
     cardContent: "",
     cardContentLink:
       "https://www.scrum.org/resources/blog/leading-high-performing-teams",
-    hashtags: ["performance", "team", "blog"],
+    hashtags: ["performance", "blog"],
   },
 ];
 
