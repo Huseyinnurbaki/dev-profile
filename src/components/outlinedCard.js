@@ -45,7 +45,7 @@ const card = (
         blogs/talks and open-source software.
         <br />
         <Link to="/content">Click here</Link> <n />
-        to see some of the content about engineering and management I like and
+        to see some of the content I like and
         like sharing. I'm open to exchanging good content, so send me one and
         I'll send one back. (video, blog, podcast, website, newsletter,
         anything)

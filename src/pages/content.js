@@ -40,7 +40,6 @@ function ContentPage() {
       const newHashtagList = selectedHashtags.filter((selected) => {
         return selected !== hashtag;
       });
-      console.log("newHashtagList", newHashtagList);
       setSelectedHashtags(newHashtagList);
     } else {
       const updateHashtagList = Object.assign([], selectedHashtags);
