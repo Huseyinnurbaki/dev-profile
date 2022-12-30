@@ -40,15 +40,15 @@ const card = (
         Toronto, ON
       </Typography>
 
-      <Typography color="text.secondary" textAlign="justify" >
-        I am a Software Engineer and amateur mountain biker. I am fond of tech
-        blogs/talks and open-source software.
+      <Typography color="text.secondary">
+        I am a Software Engineer, an amateur mountain biker, and a terrible
+        photographer. I like reading & writing tech blogs, developing smart home
+        stuff as a hobby, and spending a lot of money on AWS services.
         <br />
-        <Link to="/content">Click here</Link> <n />
-        to see some of the content I like and
-        like sharing. I'm open to exchanging good content, so send me one and
-        I'll send one back. (video, blog, podcast, website, newsletter,
-        anything)
+        <Link to="/content">Click here</Link> to see some of the tech
+        blogs/videos I enjoyed recently. <br />
+        <Link to="https://www.instagram.com/foto_abidin/">Click here</Link> to
+        see my photography skills.
       </Typography>
     </CardContent>
     <CardActions>
