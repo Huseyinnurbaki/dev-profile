@@ -5,7 +5,7 @@ import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
-import Avatar from "@mui/material/Avatar";
+// import Avatar from "@mui/material/Avatar";
 import SocialButton from "./socialButton";
 
 const card = (
@@ -18,11 +18,11 @@ const card = (
     }}
   >
     <CardContent>
-      <Avatar
+      {/* <Avatar
         alt="HHaluk_github"
         src="https://avatars.githubusercontent.com/u/22790534?v=4"
         sx={{ width: 112, height: 112 }}
-      />
+      /> */}
       <Typography
         sx={{ fontSize: 16, mt: 1 }}
         style={{ fontWeight: "600" }}
@@ -41,23 +41,27 @@ const card = (
       </Typography>
 
       <Typography color="text.secondary">
-        I am a Software Engineer, an amateur mountain biker, and a terrible
-        photographer. I like reading & writing tech blogs, developing smart home
-        stuff as a hobby, and spending a lot of money on AWS services.
+        Hi 👋 <br />
+        I'm a software engineer with 7+ years of experience. Currently, I'm part
+        of a fintech startup, working as the head of DevSecOps. I've worked on
+        high-impact projects across various countries and industries, including
+        e-commerce, banking, and social networking. I enjoy designing and
+        implementing solutions and witnessing products grow and evolve.
         <br />
-        <Link to="/content">Click here</Link> to see some of the tech
-        blogs/videos I enjoyed recently. <br />
-        <Link to="https://www.instagram.com/foto_abidin/">Click here</Link> to
-        see my photography skills.
+        {/* <Link to="/content">Click here</Link> to see some of the tech
+        blogs/videos I enjoyed recently. <br /> */}
+        {/* <Link to="https://www.instagram.com/foto_abidin/">Click here</Link> to
+        see my photography skills. */}
       </Typography>
     </CardContent>
-    <CardActions>
+    <CardActions style={{ justifyContent: "center" }}>
       <SocialButton
         alt="@Huseyinnurbaki"
         src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
         sx={{ width: 42, height: 42 }}
         uri="https://github.com/Huseyinnurbaki"
       />
+
       <SocialButton
         alt="huseyinnurbaki.medium.com"
         src="https://www.svgrepo.com/show/342026/medium.svg"
@@ -71,23 +75,23 @@ const card = (
         uri="https://www.linkedin.com/in/huseyinnurbaki/"
       />
       <SocialButton
-        alt="docker"
-        src="https://icon-library.com/images/docker-icon/docker-icon-15.jpg"
-        sx={{ width: 50, height: 50 }}
-        uri="https://hub.docker.com/search?q=hhaluk&type=image"
-      />
-      <SocialButton
-        alt="twitter"
-        src="https://seeklogo.com/images/T/twitter-icon-circle-blue-logo-0902F48837-seeklogo.com.png"
-        sx={{ width: 42, height: 42 }}
-        uri="https://twitter.com/morothepriest"
-      />
-      <SocialButton
         alt="email"
         src="https://i.pinimg.com/originals/98/d2/31/98d2319da826953b980d897c72bb3fd0.png"
         sx={{ width: 48, height: 48 }}
         uri="mailto:huseyin.nurbaki@gmail.com"
       />
+      {/* <SocialButton
+        alt="docker"
+        src="https://icon-library.com/images/docker-icon/docker-icon-15.jpg"
+        sx={{ width: 50, height: 50 }}
+        uri="https://hub.docker.com/search?q=hhaluk&type=image"
+      /> */}
+      {/* <SocialButton
+        alt="twitter"
+        src="https://seeklogo.com/images/T/twitter-icon-circle-blue-logo-0902F48837-seeklogo.com.png"
+        sx={{ width: 42, height: 42 }}
+        uri="https://twitter.com/morothepriest"
+      /> */}
     </CardActions>
   </Card>
 );

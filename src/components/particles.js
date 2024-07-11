@@ -12,7 +12,8 @@ const ParticlesBg = () => {
         console.log(container);
     };
 
-    const option = options[Math.floor(Math.random() * options.length)]
+    const option = options[1]
+    // const option = options[Math.floor(Math.random() * options.length)]
 
   return (
     <Particles
