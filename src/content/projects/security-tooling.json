@@ -1,0 +1,8 @@
+{
+  "title": "Security Automation Toolkit",
+  "description": "Open-source collection of scripts and tools for automated security testing, vulnerability remediation, and compliance reporting.",
+  "tags": ["Python", "Bash", "Security", "Open Source"],
+  "github": "https://github.com/Huseyinnurbaki",
+  "featured": false,
+  "order": 6
+}

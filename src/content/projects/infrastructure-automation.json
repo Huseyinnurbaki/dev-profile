@@ -1,0 +1,7 @@
+{
+  "title": "Infrastructure Automation",
+  "description": "Designed and implemented GitOps-driven infrastructure provisioning, reducing deployment time by 70% and eliminating manual configuration drift.",
+  "tags": ["Kubernetes", "ArgoCD", "Terraform", "AWS"],
+  "featured": true,
+  "order": 2
+}

@@ -1,0 +1,7 @@
+{
+  "title": "Observability Stack",
+  "description": "Unified logging, metrics, and tracing across microservices with custom dashboards and intelligent alerting for proactive incident response.",
+  "tags": ["Prometheus", "Grafana", "OpenTelemetry", "Go"],
+  "featured": true,
+  "order": 3
+}

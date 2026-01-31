@@ -1,0 +1,7 @@
+{
+  "title": "Internal Developer Portal",
+  "description": "Created a self-service platform for engineers to provision environments, manage secrets, and deploy services with built-in guardrails.",
+  "tags": ["React", "Node.js", "PostgreSQL", "Docker"],
+  "featured": false,
+  "order": 4
+}

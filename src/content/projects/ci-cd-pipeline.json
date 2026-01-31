@@ -1,0 +1,7 @@
+{
+  "title": "Enterprise CI/CD Pipeline",
+  "description": "Built a multi-tenant CI/CD system with hermetic builds, caching, and progressive deployment strategies for high-velocity teams.",
+  "tags": ["GitHub Actions", "Docker", "Bash", "AWS"],
+  "featured": false,
+  "order": 5
+}

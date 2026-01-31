@@ -1,0 +1,7 @@
+{
+  "title": "DevSecOps Platform",
+  "description": "Built a comprehensive security and compliance platform with automated vulnerability scanning, secrets management, and SOC 2 audit tooling.",
+  "tags": ["AWS", "Terraform", "Python", "Security"],
+  "featured": true,
+  "order": 1
+}
