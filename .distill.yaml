@@ -9,6 +9,7 @@ ai_instructions:
 context_files:
   - "README.md"
   - "package.json"
+  - "tsconfig.json"
 
 # Branch Management
 branches:
