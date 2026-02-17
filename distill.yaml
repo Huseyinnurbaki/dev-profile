@@ -1,0 +1,29 @@
+# AI Behavior Rules - Applied to every chat
+ai_instructions:
+  - "Features and tech stack explained in README.md"
+  - "Use TypeScript, not JavaScript for new code"
+  - "Always include error handling in suggestions"
+  - "Follow the patterns shown in /examples directory"
+
+# Context Files - Automatically included in every chat
+context_files:
+  - "README.md"
+  - "package.json"
+
+# Branch Management
+branches:
+  important:              # Show these after primary branch, in this order
+    - "main"
+    - "production"
+
+  ignore:                 # Filter these out (supports glob patterns)
+    - "dependabot/*"
+    - "renovate/*"
+    - "snyk-*"
+    - "temp-*"
+
+# Quick Questions (Future feature - not yet implemented)
+quick_questions:
+  - "How do I get started?"
+  - "What's the architecture?"
+  - "How do I run tests?"
